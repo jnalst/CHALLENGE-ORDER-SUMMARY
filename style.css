@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  font-size: 62.5%;
+  /* 1 rem = 10px */
+
+  /* ### Primary */
+  --Pblue: #e0e8ff;
+  --bBlue: #3829e0;
+  /* ### Neutral */
+  --veryPaleBlue: #f5f7ff;
+  --dBlue: #7280a7;
+  --darkBlue: #1f2f56;
+}
+
+.bg {
+  z-index: -1;
+  position: absolute;
+  margin-top: -40rem;
+  max-width: max-content;
+}
+
+body {
+  background-color: var(--Pblue);
+  max-width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  max-width: 55.1rem;
+  max-height: 85.3rem;
+  background-color: #fff;
+  margin-top: 20rem;
+  position: relative;
+  border-radius: 2rem;
+  display: grid;
+  gap: 2.5rem;
+  padding-bottom: 2rem;
+  place-items: center;
+  margin-top: -2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.container img {
+  border-radius: 2rem 2rem 0 0;
+}
+
+.container h1 {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 3rem;
+  color: var(--darkBlue);
+  margin-block: 0rem;
+}
+
+.container p {
+  font-family: "Red Hat Display";
+  font-size: 1.6rem;
+  max-width: 30ch;
+  text-align: center;
+  color: var(--dBlue);
+  margin-block: 0rem;
+}
+
+.plan {
+  background-color: var(--veryPaleBlue);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 35rem;
+  height: 10rem;
+  border-radius: 1.5rem;
+}
+
+.plan h2 {
+  font-family: "Red Hat Display";
+  margin-block: 0;
+  place-self: center;
+  color: var(--darkBlue);
+  font-size: 2rem;
+  margin-bottom: -3.5rem;
+  margin-top: 0.5rem;
+  position: relative;
+  padding-left: 4rem;
+  font-weight: 900;
+}
+
+.plan h2::before {
+  content: "";
+  position: absolute;
+  background-image: url(./images/icon-music.svg);
+  width: 6rem;
+  height: 6rem;
+  background-repeat: no-repeat;
+  left: -2.2rem;
+  top: 0.2rem;
+}
+
+.plan span {
+  font-family: "Red Hat Display";
+  grid-column: 1;
+  place-self: center;
+  color: var(--dBlue);
+  font-size: 1.5rem;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.plan a {
+  font-family: "Red Hat Display";
+  grid-column: 2;
+  grid-row: span 1 /-1;
+  place-self: end;
+  padding-right: 2.5rem;
+  font-size: 1.5rem;
+  margin-bottom: -2rem;
+  font-weight: 700;
+  color: var(--bBlue);
+}
+
+.plan a:hover {
+  text-decoration: none;
+  color: #766cf1;
+}
+
+.botao1 {
+  width: 35rem;
+  background-color: var(--bBlue);
+  height: 5rem;
+  border-radius: 1rem;
+}
+
+.botao1:hover {
+  background-color: #766cf1;
+  cursor: pointer;
+}
+
+.botao1 a {
+  font-family: "Red Hat Display";
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: flex;
+  place-content: center;
+  padding-top: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.botao2 {
+  width: 35rem;
+  background-color: transparent;
+  height: 5rem;
+  border-radius: 1rem;
+}
+
+.botao2 a {
+  font-family: "Red Hat Display";
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: flex;
+  place-content: center;
+  padding-top: 1.5rem;
+  font-weight: 900;
+  color: var(--dBlue);
+}
+
+.botao2 a:hover {
+  cursor: pointer;
+  color: var(--darkBlue);
+}
+
+.attribution {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Red Hat Display";
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
