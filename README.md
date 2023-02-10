@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-landing-page-css-grid-8Neo11FxNK)
+- Live Site URL: [https://challenge-order-summary.vercel.app)
 
 ## My process
 
